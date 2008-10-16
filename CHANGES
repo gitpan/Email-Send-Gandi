@@ -1,4 +1,7 @@
 Revision history for Perl module Mon Aug  4 11:09:58 BST 2008:
 
+0.33 Thu Oct 16 20:35:33 BST 2008
+     - add human-readable license to the documentation
+
 0.32 Mon Aug  4 10:45:34 BST 2008
      - initial release
