@@ -5,7 +5,7 @@ use Carp qw(croak);
 use Email::Address;
 use Net::SMTP::SSL;
 
-our $VERSION = '0.33';
+our $VERSION = '0.34';
 
 sub is_available {
     my ( $class, %args ) = @_;
@@ -39,7 +39,7 @@ sub send {
         Debug => 0,
         )
         || croak(
-        'Email::Send::Gandi: error connecting to server smtp.Gandi.com');
+        'Email::Send::Gandi: error connecting to server mail.gandi.net');
 
     $smtp->auth( $username, $password )
         or
